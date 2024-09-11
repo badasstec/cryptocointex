@@ -1,0 +1,52 @@
+{
+    "name": "Coffee app",
+    "short_name": "Coffee app",
+    "lang": "en-US",
+    "start_url": ".",
+    "display": "standalone",
+    "background_color": "#11150F",
+    "theme_color": "#25C866",
+    "description": "cointex crypto app",
+    "icons": [
+      {
+        "src": "images/logo/40.png",
+        "sizes": "40x40",
+        "type": "image/png"
+      },
+      {
+        "src": "/images/logo/48.png",
+        "sizes": "48x48",
+        "type": "image/png"
+      },
+      {
+        "src": "images/logo/72.png",
+        "sizes": "72x72",
+        "type": "image/png"
+      },
+      {
+        "src": "images/logo/96.png",
+        "sizes": "96x96",
+        "type": "image/png"
+        
+      },
+      {
+        "src": "images/logo/144.png",
+        "sizes": "144x144",
+        "type": "image/png"
+    
+      },
+      {
+        "src": "images/logo/168.png",
+        "sizes": "168x168",
+        "type": "image/png"
+  
+      },
+      {
+        "src": "images/logo/512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+     
+      }
+    ]
+  }
+  

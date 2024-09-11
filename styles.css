@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  img {
+    object-fit: cover;
+    height: 700px;
+  }
+  
+  #preloader {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+    z-index: 9999;
+  }
+  
+  #preloader .container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100px;
+    height: 100px;
+    gap: 5px;
+    justify-content: center;
+  }
+  
+  #preloader .slice {
+    width: 30px;
+    height: 30px;
+    background: #000;
+    animation: preloaderAnimation 0.8s infinite;
+  }
+  
+  @keyframes preloaderAnimation {
+    0%, 100% {
+      transform: scale(1);
+      background: #000;
+    }
+    50% {
+      transform: scale(0.5);
+      background: #ccc;
+    }
+  }
+  
